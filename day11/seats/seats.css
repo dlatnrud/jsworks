@@ -1,0 +1,13 @@
+#container{
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+h1{color: #00f;}
+table, td{
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+}
