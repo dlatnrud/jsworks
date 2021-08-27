@@ -1,0 +1,16 @@
+#item{
+    width: 500px;
+    margin: 0 auto;
+    position: relative;
+}
+.show{
+    position: absolute;
+    top: 260px;
+    left: 20px;
+}
+.text{
+    width: 400px;
+    display: none;
+    line-height: 1.7;
+    text-align: justify;
+}
