@@ -8,13 +8,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
     <!-- 구글 웬폰트 - CDN 방식 - 사이트가 실행되면 글꼴이 다운로드 됨 -->
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
         body{
             background-color: blue;
             color: white;
             text-align: center;
             margin-top: 50px;
             font-size: 3em;
-            font-family: 'Nanum Pen Script', cursive;
+            /* font-family: 'Nanum Pen Script', cursive; */
+            font-family: 'Nanum Brush Script', cursive;
         }
     </style>
 </head>
@@ -28,7 +30,7 @@
         words[3] = "가짜 친구는 소문을 믿고, 진짜 친구는 나를 믿는다.";
         words[4] = "성공이라는 못을 박으려면 끈질김이라는 망치가 필요하다.";
 
-        var rand = Math.floor(Math.random() * words.length);
+        var rand = Math.floor(Math.random() * words.length);    // rand = 0 ~ 4
 
         document.write(words[rand]);
     </script>
