@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jquery 예제</title>
+    <script src="js/jquery-3.6.0.js"></script>
+</head>
+<body>
+    <div class="pic"></div>
+    <!-- <input type="button" value="확인" onclick="addImage()"> -->
+    <button type="button" onclick="addImage()">확인</button>
+
+    <script>
+        // jquery의 html()함수
+        function addImage(){
+            $(".pic").html("<img src='images/coffee-blue.jpg'>");
+        }
+    </script>
+</body>
+</html>
